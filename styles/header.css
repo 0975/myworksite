@@ -1,0 +1,83 @@
+.header-all {
+
+
+    position: fixed;
+    top: 20px;
+    right: 50px;
+    left: 50px;
+    z-index: 1;
+}
+
+
+
+.header{
+    width: 1820px;
+    height: 70px;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    border-radius: 35px;
+    box-shadow: 1px 1px 10px rgb(88, 88, 88, 0.1);
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    font-family: Roboto, Arial;
+    font-weight: bold;
+    flex: 1;
+    padding-top: 1px;
+}
+
+.channel-picture {
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+
+.right-section {
+
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+
+}
+
+.service-button,
+.about-button,
+.faq-button {
+    border: none;
+    font-family: Roboto, Arial;
+    background-color: white;
+    cursor: pointer;
+}
+
+.service-button:hover,
+.about-button:hover,
+.faq-button:hover {
+    color: #838383;
+}
+
+.contact-us-button {
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    font-family: Roboto, Arial;
+    color: white;
+    background-color: black;
+}
+
+.contact-us-button:hover {
+    background-color: white;
+    color: black;
+}

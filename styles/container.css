@@ -1,0 +1,265 @@
+.home-page-container {
+    display: flex;
+
+}
+
+.home-page {
+    height: 1080px;
+    background-color: rgb(244, 242, 250);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.home-page-left {
+    width: 960px;
+    height: 1080px;
+
+}
+
+.text-view {
+
+    width: 950px;
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 15px;
+    margin-top: 130px;
+
+}
+
+.title {
+
+    font-family: Roboto, Arial;
+    font-size: 80px;
+    font-weight: bold;
+    padding-left: 130px;
+    margin-bottom: 0px;
+
+}
+
+
+.ggao {
+    width: 550px;
+    font-size: 25px;
+    padding-left: 130px;
+    margin-top: 0px;
+}
+
+.button-container {
+    padding-left: 130px;
+}
+
+.home-page-contact-button {
+    width: 150px;
+    height: 55px;
+    border-width: 1px;
+    border-color: rgb(53, 53, 53);
+    border-style: solid;
+    background-color: rgb(53, 53, 53);
+    border-radius: 40px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+.home-page-contact-button:hover {
+
+    color: black;
+    background-color: white;
+}
+
+
+
+.home-page-right {
+    width: 960px;
+    height: 1080px;
+
+}
+
+.picture-view {
+    width: 750px;
+    height: 750px;
+    background-color: rgb(244, 242, 250);
+    margin-top: 120px;
+}
+
+
+.series-picture {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    border-radius: 110px;
+    background-color: rgb(70, 47, 139);
+    object-fit: cover;
+
+}
+
+.series-picture:hover {
+    .series-picture-first {
+        width: 750px;
+
+    }
+
+    .series-picture-third {
+        width: 750px;
+    }
+
+    .series-picture-first2 {
+        width: 600px;
+        height: 250px;
+    }
+
+    .series-picture-second2 {
+        margin-left: 0;
+    }
+}
+
+.series-picture-first {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(159, 148, 192);
+    border-radius: 100px;
+    transition: width 2s;
+
+}
+
+.series-picture-first2 {
+    width: 200px;
+    height: 250px;
+    background-color: rgb(96, 74, 139);
+    border-radius: 100px;
+    object-fit: cover;
+    transition: width 2.5s;
+
+}
+
+.series-picture-second {
+    height: 250px;
+    background-color: rgb(98, 81, 148);
+
+}
+
+.series-picture-second2 {
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background-color: rgb(148, 138, 177);
+    margin-left: 499px;
+    transition: margin-left 2s;
+}
+
+.series-picture-third {
+    width: 160px;
+    height: 250px;
+    background-color: rgb(164, 156, 190);
+    border-radius: 100px;
+    transition: width 2.5s;
+}
+
+.service-page-container {
+    width: 1920px;
+    height: 1804px;
+    background-color: rgb(237, 238, 243);
+}
+
+.service-page {
+    display: grid;
+    grid-template-columns: 1fr;
+    bottom: 0;
+}
+
+.service-page-title {
+    height: 300px;
+    background-color: white;
+    display: block;
+   
+}
+
+
+
+.service-icon {
+    font-family: Roboto, Arial;
+    width: 90px;
+    height: 30px;
+
+    background-color: gray;
+    color: white;
+    margin-top: 120px;
+    margin-left: 320px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0px;
+  
+
+}
+
+.service-title {
+    margin-top: 30px;
+    margin-left: 320px;
+    font-family: Roboto, Arial;
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(5, 2, 8);
+
+}
+
+.services {
+    height: 300px;
+    display: grid;
+    grid-template-columns: 120px 300px 1fr;
+    border-color: gray;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding-left: 320px;
+    padding-right: 320px;
+    align-items: center;
+    column-gap: 100px;
+}
+
+.services:hover {
+    background-color: gray;
+    color: white;
+}
+
+.services-bottom {
+    height: 300px;
+    display: grid;
+    grid-template-columns: 120px 300px 1fr;
+    padding-left: 320px;
+    padding-right: 320px;
+    align-items: center;
+    column-gap: 100px;
+    background-color: rgb(237, 238, 243);
+
+}
+
+.services-bottom:hover {
+    background-color: gray;
+    color: white;
+}
+
+.num {
+    font-family: Roboto, Arial;
+    font-size: 90px;
+    font-weight: bold;
+
+}
+
+.service-name {
+    margin-left: 100px;
+    font-family: Roboto, Arial;
+    font-size: 33px;
+    line-height: 50zpx;
+    letter-spacing: 2px;
+
+}
+
+.service-profile {
+
+    width: 600px;
+    font-family: Roboto, Arial;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    padding-left: 80px;
+}

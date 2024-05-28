@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+ 
+<canvas id="myCanvas" width="300" height="200" style="border:1px solid #000000;"></canvas>
+ 
+<script>
+var canvas = document.getElementById('myCanvas');
+var ctx = canvas.getContext('2d');
+ 
+// 绘制一个红色矩形
+ctx.fillStyle = 'red';
+ctx.fillRect(50, 40, 150, 100);
+ 
+// 绘制一个黑色矩形作为蒙版
+ctx.beginPath();
+ctx.fillStyle = 'black';
+ctx.globalAlpha = 0.5; // 设置全局透明度
+ctx.fillRect(70, 60, 110, 80);
+ 
+// 绘制结果将显示一个红色矩形，并且在左上角有一个半透明的黑色蒙版
+</script>
+ 
+</body>
+</html>

@@ -1,0 +1,17 @@
+"var" myDiv = document.getElementById('service-page-title');
+        function handleScroll(event) {
+            console.log("滚轮滚动了");
+        
+            // 在这里添加你的滚轮滚动时要执行的代码
+        }
+
+        // 添加滚轮事件监听器
+    if (service-page-title.addEventListener) {
+      // 非IE浏览器
+      service-page-title.addEventListener('mousewheel', handleScroll, false);
+      // Firefox
+      service-page-title.addEventListener('DOMMouseScroll', handleScroll, false);
+    } else {
+      // 兼容旧版本的IE
+      service-page-title.attachEvent('onmousewheel', handleScroll);
+    }

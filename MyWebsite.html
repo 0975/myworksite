@@ -64,13 +64,13 @@
         </div>
         <div class="service-page-container">
             <div class="service-page">
-                <div class="service-page-title">
-                    <p class="service-icon">service</p>
-                    <p class="service-title">committed to excellent</p>
+                <div class="servicePageTitle" >
+                    <p class="serviceIcon" id="serviceIcon">service</p>
+                    <p class="serviceTitle" id="serviceTitle">committed to excellent</p>
                 </div>
                 <div class="services">
                     <p class="num">01</p>
-                    <p class="service-name">Name of  Service</p>
+                    <p class="service-name">Name of Service</p>
                     <p class="service-profile">
                         This is the space to describe the service and explain how
                         customers or clients can benefit from it. It's an opportunity
@@ -80,7 +80,7 @@
                 </div>
                 <div class="services">
                     <p class="num">02</p>
-                    <p class="service-name">Name of  Service</p>
+                    <p class="service-name">Name of Service</p>
                     <p class="service-profile">
                         This is the space to describe the service and explain how
                         customers or clients can benefit from it. It's an opportunity
@@ -90,7 +90,7 @@
                 </div>
                 <div class="services">
                     <p class="num">03</p>
-                    <p class="service-name">Name of  Service</p>
+                    <p class="service-name">Name of Service</p>
                     <p class="service-profile">
                         This is the space to describe the service and explain how
                         customers or clients can benefit from it. It's an opportunity
@@ -100,7 +100,7 @@
                 </div>
                 <div class="services">
                     <p class="num">04</p>
-                    <p class="service-name">Name of  Service</p>
+                    <p class="service-name">Name of Service</p>
                     <p class="service-profile">
                         This is the space to describe the service and explain how
                         customers or clients can benefit from it. It's an opportunity
@@ -110,7 +110,7 @@
                 </div>
                 <div class="services-bottom">
                     <p class="num">05</p>
-                    <p class="service-name">Name of  Service</p>
+                    <p class="service-name">Name of Service</p>
                     <p class="service-profile">
                         This is the space to describe the service and explain how
                         customers or clients can benefit from it. It's an opportunity
@@ -121,13 +121,31 @@
             </div>
         </div>
         <div class="about-us-page">
-            
+
         </div>
         <div class="how-we-work-page"></div>
         <div class="why-choose-us-page"></div>
         <div class="peoples-feedback-page"></div>
         <div class="get-in-touch-page"></div>
     </div>
+
+
+    <script>
+      
+       
+       function handleScroll(event) {
+      console.log("滚轮滚动了");
+      // 在这里添加你的滚轮滚动时要执行的代码
+      var serviceIcon = document.getElementById('serviceIcon');
+      serviceIcon.style.width = '90px';
+
+      var serviceTitle = document.getElementById('serviceTitle');
+        serviceTitle.style.fontSize = '40px';
+     
+    }
+
+    document.addEventListener('wheel', handleScroll);
+    </script>
 </body>
 
 </html>
